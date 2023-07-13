@@ -1,0 +1,31 @@
+
+.EventNavigation {
+    
+    margin: 0px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .EventNavigation li{
+    width: 120px;
+    padding: 5px 10px;
+    background-color: rgb(205, 238, 255);
+    margin: 10px;
+    border: 2px solid rgb(8, 3, 70);
+    border-radius: 3px;
+
+  }
+  .EventNavLink{
+    list-style: none;
+    color: black;
+  }
+  .unActive{    
+    text-decoration: none;
+  }
+  .active{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+  
